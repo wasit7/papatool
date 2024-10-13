@@ -104,7 +104,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## **Contributing**
 
 If you want to contribute to `Papatool`, feel free to fork the repository and submit a pull request with your changes.
-
----
-
-Feel free to modify the `README.md` file to better suit your project and update any URLs and instructions as needed.
