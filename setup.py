@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='package-tool',  # The name of your package
+    name='papatool',  # The name of your package
     version='0.1.0',
     description='A package tool for managing Python packages',
     author='Wasit Limprasert',
@@ -10,7 +10,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'package-tool=package-tool.package-tool:main',  # CLI command to run the tool
+            'papatool=papatool.papatool:main',  # CLI command to run the tool
         ]
     },
     classifiers=[
