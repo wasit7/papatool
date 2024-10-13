@@ -4,13 +4,13 @@ setup(
     name='package-tool',  # The name of your package
     version='0.1.0',
     description='A package tool for managing Python packages',
-    author='Your Name',
-    author_email='your.email@example.com',
-    url='https://github.com/wasit7/myocr',  # Your GitHub repository URL
+    author='Wasit Limprasert',
+    author_email='wasit7@gmail.com',
+    url='https://github.com/wasit7/package-tool',  # Your GitHub repository URL
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'package_tool=package_tool.package_tool:main',  # CLI command to run the tool
+            'package-tool=package-tool.package-tool:main',  # CLI command to run the tool
         ]
     },
     classifiers=[
