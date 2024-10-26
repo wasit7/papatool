@@ -102,7 +102,7 @@ These dependencies will be automatically installed when you install `Papatool`.
 2. Generate an API token:
 - Navigate to your account settings.
 - Under "API tokens", create a new API token by clicking on "Add API token".
-3. Eet up your ~/.pypirc file like this:
+3. Set up your ~/.pypirc file like this:
 
 ```bash
 [pypi]
