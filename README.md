@@ -97,6 +97,20 @@ papatool upload
 
 These dependencies will be automatically installed when you install `Papatool`.
 
+## **Setup PyPI Token**
+1. Login to your PyPI account: Go to [PyPI](https://pypi.org/account/login/) and log in with your account.
+2. Generate an API token:
+- Navigate to your account settings.
+- Under "API tokens", create a new API token by clicking on "Add API token".
+3. Eet up your ~/.pypirc file like this:
+
+```bash
+[pypi]
+repository: https://upload.pypi.org/legacy/
+username: [your user]
+password: pypi-[your-api-token]
+```
+
 ## **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
